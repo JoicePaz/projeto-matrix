@@ -28,6 +28,11 @@
   }
 }
 
+
 .card-image img{
-  height: 349px;
+  height: 300px;
+}
+
+.buttons-group {
+  align-items: center;
 }
