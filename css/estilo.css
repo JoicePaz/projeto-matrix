@@ -1,6 +1,21 @@
-#contato .social ul li{ list-style-type: none; display: inline; padding-left: 15px;	padding-right: 10px;}
-#contato .social ul li a img{  background-size: cover; background-position: center center;border-radius: 50%;box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);}
-#c1{margin-top: 34px;}
+#contato .social ul li { 
+  list-style-type: none; 
+  display: inline; 
+  padding-left: 15px;	
+  padding-right: 10px;
+}
+
+#contato .social ul li a img {
+  background-size: cover; 
+  background-position: center center;
+  border-radius: 50%;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
+
+}
+
+#c1 {
+  margin-top: 34px;
+}
 
 .parallax-container {
   min-height: 380px;
@@ -28,11 +43,17 @@
   }
 }
 
+.teste {
+  height: 250px;
+}
 
 .card-image img{
   height: 300px;
 }
 
+.card-action {
+  align-items: center;
+}
 .buttons-group {
   align-items: center;
 }
