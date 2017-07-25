@@ -1,16 +1,15 @@
-#contato .social ul li { 
-  list-style-type: none; 
-  display: inline; 
-  padding-left: 15px;	
+#contato .social ul li {
+  list-style-type: none;
+  display: inline;
+  padding-left: 15px;
   padding-right: 10px;
 }
 
 #contato .social ul li a img {
-  background-size: cover; 
+  background-size: cover;
   background-position: center center;
   border-radius: 50%;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
-
 }
 
 #c1 {
@@ -27,7 +26,7 @@
   width: 100%;
 }
 
-@media only screen and (max-width : 992px) {
+@media only screen and (max-width: 992px) {
   .parallax-container .section {
     position: absolute;
     top: 40%;
@@ -37,7 +36,7 @@
   }
 }
 
-@media only screen and (max-width : 600px) {
+@media only screen and (max-width: 600px) {
   #index-banner .section {
     top: 0;
   }
@@ -47,13 +46,30 @@
   height: 250px;
 }
 
-.card-image img{
+.card-image img {
   height: 300px;
 }
 
 .card-action {
   align-items: center;
 }
+
 .buttons-group {
   align-items: center;
+}
+
+#icones {
+  margin-left: 23px;
+}
+
+#revealNome {
+  margin-left: 8%;
+}
+
+#revealNomeA {
+  margin-left: 6%;
+}
+
+#revealNomeF {
+  margin-left: 2%;
 }
