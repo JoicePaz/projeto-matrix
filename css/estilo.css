@@ -74,8 +74,12 @@
   margin-left: 2%;
 }
 
-#emailContato{
+#emailContato {
   margin-left: 13px;
   font-size: 20px;
   text-decoration: underline;
+}
+
+.cardFadeIn {
+  opacity: 0;
 }
