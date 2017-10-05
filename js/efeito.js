@@ -1,5 +1,6 @@
 $(document).ready(function () {
-
+    $('.collapsible').collapsible();
+    $('.carousel').carousel();
     /* Every time the window is scrolled ... */
     $(window).scroll(function () {
 
@@ -23,3 +24,4 @@ $(document).ready(function () {
     });
 
 });
+
