@@ -1,6 +1,12 @@
 $(document).ready(function () {
     $('.collapsible').collapsible();
     $('.carousel').carousel();
+
+    $('#emailContato').click(function(){
+            window.open('mailto:unicariocadev@gmail.com');
+    });
+
+    
     /* Every time the window is scrolled ... */
     $(window).scroll(function () {
 
